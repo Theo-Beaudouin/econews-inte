@@ -2,7 +2,6 @@ footer
 {
     background-color: #043419;
     color: #fff;
-    margin-bottom: 50px;
     border-top: solid 2px #ffde59;
     border-bottom: solid 2px #ffde59;
     padding: 20px;
@@ -60,4 +59,21 @@ footer
 footer > hr
 {
     margin: 20px 0 20px 0 !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px)
+{
+    footer
+    {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .footer-ctn
+    {
+        width: 1024px;
+        margin: auto;
+    }  
 }

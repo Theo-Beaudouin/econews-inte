@@ -1,19 +1,24 @@
 header
 {
     background-color: #043419;
-    color: white;
+    color: #fff;
+    position: relative;
+}
+
+.header-ctn
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px 0 10px;
     height: 50px;
+    padding: 0 10px 0 10px;
 }
 
 .header-logo
 {
     position: absolute;
-    width: 10%;
+    width: 40px;
     left: 0;
     right: 0;
     margin: auto;
@@ -29,8 +34,17 @@ header
 {
     header
     {
-        position: fixed;
+        position: fixed !important;
         bottom: 0;
         width: 100%;
     }
+}
+
+@media (min-width: 1024px)
+{
+    .header-ctn
+    {
+        width: 1024px;
+        margin: auto;
+    }  
 }

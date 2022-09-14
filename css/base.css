@@ -21,6 +21,9 @@ html body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
     font-size: 1.15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main
