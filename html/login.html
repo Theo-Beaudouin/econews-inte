@@ -15,16 +15,38 @@
 <body>
     <header>
         <div class="header-ctn">
-            <i class="fa-light fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
             <img class="header-logo" src="../assets/logo.png" alt="Circular econews logo depicting a golden tree with a green background">
             <p class="header-menu">
                 Username
-                <i class="fa-light fa-circle-arrow-up"></i>
+                <i class="fa-solid fa-circle-arrow-up"></i>
             </p>
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <div class="main-tab">
+            <p class="tab-options tab-active">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                Log in
+            </p>
+            <p class="tab-options tab-inactive">
+                <i class="fa-solid fa-user-plus"></i>
+                Sign up
+            </p>
+        </div>
+
+        <form class="main-form" action="get" action="./home.html" name="login">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="*****">
+            <p class="form-forgot">Forgotten password ?</p>
+
+            <button class="form-btn">Log in</button>
+        </form>
+    </main>
 
     <footer>
         <div class="footer-ctn">
