@@ -37,3 +37,12 @@ hr
     height: 2px;
     margin: 15px 0 15px 0;
 }
+
+@media (min-width: 1024px)
+{
+    main
+    {
+        width: 1024px;
+        margin: 10px auto;
+    }
+}

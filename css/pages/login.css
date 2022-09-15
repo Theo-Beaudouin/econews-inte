@@ -92,3 +92,12 @@ main
     color: #fff;
     cursor: pointer;
 }
+
+@media (min-width: 768px)
+{
+    .main-tab
+    {
+        /* position: absolute; */
+
+    }
+}
