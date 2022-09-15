@@ -83,12 +83,3 @@
         display: none !important;
     }
 }
-
-@media (min-width: 1024px)
-{
-    main
-    {
-        width: 1024px;
-        margin: 10px auto;
-    }
-}
