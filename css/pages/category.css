@@ -25,6 +25,11 @@
     text-align: center;
 }
 
+.subcat-item
+{
+    padding: 5px;
+}
+
 .subcat-item:hover
 {
     color: #ffde59;
@@ -39,4 +44,22 @@
 {
     from { font-weight: 400; }
     to{ font-weight: 700; }
+}
+
+@media (max-width: 1024px)
+{
+    .subcat-item
+    {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    main
+    {
+        display: grid;
+        grid-template-columns: [col-start] 1fr [coline-1] 1fr [coline-2] 1fr [col-end];
+        gap: 50px;
+    }
 }
