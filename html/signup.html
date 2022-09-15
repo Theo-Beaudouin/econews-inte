@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Econews - Login</title>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout/header.css">
+    <link rel="stylesheet" href="../css/layout/footer.css">
+    <link rel="stylesheet" href="../css/pages/signup.css">
+
+    <script src="https://kit.fontawesome.com/a8df2b1ad9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-ctn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img class="header-logo" src="../assets/logo.png" alt="Circular econews logo depicting a golden tree with a green background">
+            <p class="header-menu">
+                Username
+                <i class="fa-solid fa-circle-arrow-up"></i>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-tab">
+            <p class="tab-options tab-inactive">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                Log in
+            </p>
+            <p class="tab-options tab-active">
+                <i class="fa-solid fa-user-plus"></i>
+                Sign up
+            </p>
+        </div>
+
+        <form class="main-form" action="get" action="./home.html" name="login">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="*****">
+
+            <label for="c-password">Confirm Password</label>
+            <input type="password" id="c-password" name="c-password" placeholder="*****">
+
+            <button class="form-btn">Sign up</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-ctn">
+
+            <div class="footer-input">
+                <label for="searchbar"></label>
+                <input type="text" id="searchbar" name="searchbar" placeholder="Search"  />
+            </div>
+            
+            <hr>
+
+            <div class="footer-input">
+                <label for="newsletter">Subscribe to our newsletters</label>
+                <input type="text" id="newsletter" name="newsletter" placeholder="Email" />
+            </div>
+
+            <hr>
+
+            <div class="footer-links">
+                <ul class="links-list">
+                    <li class="links-item">
+                        <a class="links-anc" href="#">Terms of use</a>
+                    </li>
+                    <li class="links-item">
+                        <a class="links-anc" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="links-item">
+                        <a class="links-anc" href="#">Sitemap</a>
+                    </li>
+                    <li class="links-item">
+                        <a class="links-anc" href="#">About us</a>
+                    </li>
+                    <li class="links-item">
+                        <a class="links-anc" href="#">Manage Cookies</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
