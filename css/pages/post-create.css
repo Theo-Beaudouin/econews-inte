@@ -5,30 +5,11 @@ main
     gap: 20px;
 }
 
-.main-tab
+.main-title
 {
-    align-self: flex-start;
-}
-
-.tab-options
-{
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
-.tab-active
-{
-    color: #ffde59;
-    border-left: #ffde59 solid 3px;
-}
-
-.tab-inactive:hover
-{
-    cursor: pointer;
-    text-decoration: underline #ffde59;
-    border-left: #ffde59 solid 3px;
 }
 
 .main-form
@@ -44,7 +25,7 @@ main
     align-self: center;
 }
 
-.main-form > input
+.main-form > input,select,textarea
 {
     background-color: #fff;
     border-radius: 5px;
@@ -56,23 +37,30 @@ main
     align-self: flex-start;
 }
 
+.main-form > textarea
+{
+    height: 100px;
+    resize: vertical;
+}
+
+.snippet-limit
+{
+    font-size: 15px;
+    color: #ffde59;
+    align-self: flex-end;
+}
+
+#thumbnail
+{
+    background-color: #043419;
+    border: none !important;
+    padding: 5px 0;
+}
+
 .main-form > label
 {
     align-self: flex-start;
     font-size: 17px;
-}
-
-.form-forgot
-{
-    font-size: 17px;
-    color: #ffde59;
-    cursor: pointer;
-    align-self: flex-end;
-}
-
-.form-forgot:hover
-{
-    text-decoration: underline;
 }
 
 .form-btn

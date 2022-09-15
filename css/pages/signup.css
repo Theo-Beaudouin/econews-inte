@@ -62,19 +62,6 @@ main
     font-size: 17px;
 }
 
-.form-forgot
-{
-    font-size: 17px;
-    color: #ffde59;
-    cursor: pointer;
-    align-self: flex-end;
-}
-
-.form-forgot:hover
-{
-    text-decoration: underline;
-}
-
 .form-btn
 {
     background-color: #fff;
@@ -89,6 +76,5 @@ main
 .form-btn:hover
 {
     background-color: #ffde59;
-    color: #fff;
     cursor: pointer;
 }
