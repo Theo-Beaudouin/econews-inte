@@ -89,6 +89,5 @@ main
 .form-btn:hover
 {
     background-color: #ffde59;
-    color: #fff;
     cursor: pointer;
 }
