@@ -46,3 +46,53 @@ hr
         margin: 10px auto;
     }
 }
+
+/* ---------- BUTTONS ---------- */
+
+.btn-ctn
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn
+{
+    background-color: #ffde59;
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    animation: zoom-out 0.1s ease-in;
+}
+
+.btn:hover
+{
+    background-color: #FFBF00;
+    cursor: pointer;
+    animation: zoom-in 0.1s ease-out;
+    padding: 20px;
+}
+
+.btn-delete
+{
+    background-color: #fe4646;
+}
+
+.btn-delete:hover
+{
+    background-color: #ff2626;
+}
+
+@keyframes zoom-in
+{
+    from { padding: 15px }
+    to { padding: 20px }
+}
+
+@keyframes zoom-out
+{
+    from { padding: 20px; }
+    to { padding: 15px; }
+}
