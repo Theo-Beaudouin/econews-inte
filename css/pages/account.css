@@ -1,0 +1,108 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ---------- FORM ---------- */
+
+.main-form
+{
+    background-color: #043419;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.main-form > input
+{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    border: solid 1px grey;
+    margin: 5px 0;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.main-form > label
+{
+    align-self: flex-start;
+    font-size: 17px;
+}
+
+/* ---------- POSTS ---------- */
+
+/* .post
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+.main-title
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.post-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.post-excerpt
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.post-secondary
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-detail
+{
+    font-size: 15px;
+}
+
+@media (min-width: 768px)
+{
+
+    .main-grid
+    {
+        display: grid;
+        grid-template-columns: [col-start] 1fr [col1] 1fr [col-end];
+    }
+
+    .post
+    {
+        padding: 0 10px;
+    }
+
+    .post-sep-last
+    {
+        display: none !important;
+    }
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn-ctn
+{
+    justify-content: flex-end;
+}

@@ -74,20 +74,3 @@ main
 {
     text-decoration: underline;
 }
-
-.form-btn
-{
-    background-color: #fff;
-    color: #000;
-    padding: 15px;
-    border-radius: 5px;
-    margin: 10px 0 0 0;
-    display: block;
-    align-self: center;
-}
-
-.form-btn:hover
-{
-    background-color: #ffde59;
-    cursor: pointer;
-}
