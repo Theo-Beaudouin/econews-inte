@@ -24,7 +24,7 @@ main
     border-left: #ffde59 solid 3px;
 }
 
-.tab-inactive:hover
+.tab-options:hover
 {
     cursor: pointer;
     text-decoration: underline #ffde59;
